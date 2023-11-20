@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Krešimir Vrdoljak">
+    <title>Projekt K.Vrdoljak</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="slike/mazda-48.ico">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+</head>
+
+
+
+
+<body>
+    <header>
+        <div class="hero-image" role="banner">
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Pocetna</a></li>
+                <li><a href="https://www.mazda.hr/zasto-mazda/crafted-in-japan/#">Novosti</a></li>
+                <li><a href="https://www.mazda.hr/obrasci/pretraga-partnera/#">Partneri</a></li>
+                <li><a href="http://127.0.0.1:5500/modeli.html">Modeli</a></li>
+                <li><a href="forma.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+        <h1>Kontakt forma</h1><br>
+
+        <div class="google-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.8371864845894!2d16.098776876667596!3d45.81451900999608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476679cc6195f8b5%3A0xb28a96259f241890!2sAUTO%20KU%C4%86A%20KARLO%20doo!5e0!3m2!1sen!2shr!4v1699286722115!5m2!1sen!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <form method="post" name="forma" id="forma">
+            <div class="form-group">
+                <label for="firstname">Ime:</label>
+                <input type="text" class="form-control" id="firstname" name="firstname" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="lastname">Prezime:</label>
+                <input type="text" class="form-control" id="lastname" name="lastname" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value=""></option>
+                    <option value="HR">Hrvatska</option>
+                    <option value="DE">Njemacka</option>
+                </select>
+            </div>
+    
+            <div class="form-group" >
+                <label for="note">Poruka:</label>
+                <textarea rows="3" cols="30" name="note" id="note" placeholder="Posaljite poruku..."></textarea>
+            </div>
+    
+            <div class="form-group">
+                <input type="submit" value="Posalji">
+                <input type="reset" value="Ponisti">
+            </div>
+            
+        </form><br>
+
+    <footer>
+        <p>Copyright &copy; 2023 Kresimir Vrdoljak. 
+            <a href="https://github.com/vrc253/projekt/tree/main">
+                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" height="20px">
+            </a> 
+        
+        </p> 
+    </footer> 
+</body>
+</html>
