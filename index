@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Krešimir Vrdoljak">
+    <title>Projekt K.Vrdoljak</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="slike/mazda-48.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header>
+        <div class="hero-image" role="banner">
+
+        </div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Pocetna</a></li>
+                    <li><a href="https://www.mazda.hr/zasto-mazda/crafted-in-japan/#">Novosti</a></li>
+                    <li><a href="https://www.mazda.hr/obrasci/pretraga-partnera/#">Partneri</a></li>
+                    <li><a href="http://127.0.0.1:5500/modeli.html">Modeli</a></li>
+                    <li><a href="forma.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <h1>Dobrodošli u svijet Mazde</h1>
+
+        <div class="flex-container">
+            <div class="slika">
+                <figure>
+                    <a target="_blank" 
+                        href="https://hips.hearstapps.com/hmg-prod/images/2021-mazda-mazda6-carbon-edition-394-edit-1611709080.jpg?crop=0.622xw:0.465xh;0.345xw,0.484xh&resize=1200:*"><img
+                            src="slike/mazda.jpg" alt="Mazda 6" height="300" title="mbape"></a>
+                    <figcaption><a href="https://www.mazda.hr/modeli/mazda6-sedan/#" target="_blank">Mazda 6</a> u novom ruhu.</figcaption>
+                </figure>
+            </div>
+
+        
+            <div class="tekst">
+                <h2> Mazd­in način</h2>
+                <p>Japanska izrada više je od same sposobnosti da se izradi nešto. Ona simbolizira težnju za
+                    savršenstvom</p>
+                <p>Kad majstori „Takumi” u Japanu posvete svoje živote stvaranju predmeta, u njega unose dio svoje duše
+                    i na taj ga način dovode u život.</p>
+                <p>U Japanu se taj pristup zove „Monotsukuri”. To je ujedno i Mazdina nit vodilja od početka.</p>
+                <p>Naši Takumi majstori ne izrađuju automobile, već stvaraju umjetnička djela.</p>
+                <br>
+
+            </div>
+
+            
+        </div>        
+
+    </main>
+
+
+
+    <footer>
+        <p>Copyright &copy; 2023 Kresimir Vrdoljak.
+            <a href="https://github.com/vrc253/projekt/tree/main">
+                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" height="20px"
+                    alt="Github">
+            </a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
