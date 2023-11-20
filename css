@@ -1,0 +1,192 @@
+body, html {
+	font-family: 'Leto';
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+
+/* slika u header-u*/
+.hero-image {
+	background-image: url("slike/mazda-hero.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 300px;
+}
+
+/* sirina nav trake postavljena na citavu duzinu stranice*/
+nav{
+	width: 100%;
+}
+
+/*opci izgled nav trake,background boja,padding,itd...*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(30, 31, 31);
+}
+
+/*pozicioniraj linkove u nav traci u lijevo*/
+li {
+	float: left;
+}
+
+/*izgled navigacijske trake*/
+li a {
+	display: block;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration:none;
+	font-family: 'Lato';
+
+}
+
+/* mijenja boju gumbova na navigacijskoj traci pri hoveru i font teksta*/
+li a:hover {
+	background-color: rgb(107, 102, 102);
+	text-decoration: #fff;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	font-family: sans-serif;
+}
+
+
+/*postavlja sirinu i visinu footera, footer je fiksiran na dnu stranice
+tekst je postavljen u sredinu*/
+footer {
+	display: block;
+	text-align: center;
+	border: 1px groove #000000;
+	background-color: rgb(30, 31, 31);
+	color: #fff;
+	position: fixed;
+	padding-top: 0px;
+	width: 100%;
+	bottom: 0;
+
+}
+
+
+/*Github slika u footeru*/
+footer img {
+	width: 30px;
+}
+
+/*border slike na pocetnoj strani,*/
+figure {
+	padding: 0px;
+	max-width: 100%;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 10px 5px 5px #4d4d4e;
+	float: left;
+	}
+
+/*pozicioniraj tekst u figcaptionu na sredinu i neka opis slike ima
+sirinu citavom duzinom slike */
+figcaption{
+	max-width: 100%;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	padding-left: 10px;
+}
+
+/*underline dodaje crtu ispod naslova,padding dodaje 10px lijevo od naslova*/
+h1{
+	padding-left: 10px;
+	font-family: 'Leto';
+	text-decoration: underline;
+}
+
+
+/*boja link-a u opisu slike (figcaption) na pocetnoj strani*/
+main a {
+	color: rgb(0, 46, 139);
+	text-decoration: underline;
+}
+
+/*boja link-a u opisu slike (figcaption) na pocetnoj strani
+prilikoom hoovera*/
+main a:hover {
+	color: rgb(0, 46, 139);
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+
+h2{
+	font-family: 'Leto';
+	text-decoration: underline;
+	padding-left: 10px;
+}
+
+/*velicina slova paragrafa, razmak izmedu redaka,visina redaka,font*/
+main p {
+	margin: 0.8em;
+	line-height: 1.5;
+	letter-spacing: 1.2px;
+	font-family: 'Leto';
+	font-size: x-large;
+
+}
+
+
+/*------------------------------------------------------------------------------------*/
+/*ovaj dio koda omogucuje tekstu na pocetnoj strani wrap oko slike,pri zumiranju
+tekst se spusta ispod slike nakon 1000px*/
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+
+}
+
+.slika{
+	flex: 30%;
+}
+
+.tekst{
+	flex: 65%;
+}
+
+@media (max-width: 1000px) {
+	.flex-container {
+	  flex-direction: column;
+	}
+  }
+
+/*----------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*forma pomaknuta 10px desno*/
+form{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 350px;
+}
+
+/*maksimalna velicina forme, resize: none uklanja mogucnost upravljanja velicinom okvira za unos teksta*/
+form textarea{
+	resize: none;
+	min-width: 300px;
+	min-height: 100px;
+}
+
+
+
+
+
+
